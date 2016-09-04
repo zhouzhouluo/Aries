@@ -15,6 +15,7 @@ public  class PushCodeFactory implements ProtocolCodecFactory {
     private final TextLineDecoder decoder;
     /*final static char endchar = 0x1a;*/
     final static char endchar = 0x0d;
+    
     public PushCodeFactory() {
       this(Charset.forName("UTF-8"));
     }

@@ -16,7 +16,7 @@
 	  default-lazy-init="true">
 
 	<!-- 自动扫描组件，这里要把controller去除，如果不去除会影响事务管理 -->
-	<context:component-scan base-package="zhouzhou.im.com" >
+	<context:component-scan base-package="com.zhouzhou.aries" >
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 	<!-- 启用 Autowired自动注入 -->
@@ -38,14 +38,14 @@
         </property>
         <property name="packagesToScan">
             <list>
-                <value>zhouzhou.pn.com</value>
+                <value>com.zhouzhou.aries</value>
             </list>
         </property>
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
                 <prop key="hibernate.hbm2ddl.auto">none</prop>
-                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.show_sql">false</prop>
                 <prop key="javax.persistence.validation.mode">none</prop>
                 <prop key="hibernate.temp.use_jdbc_metadata_defaults">false</prop>
             </props>

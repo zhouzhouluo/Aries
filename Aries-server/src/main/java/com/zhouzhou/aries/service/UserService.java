@@ -8,5 +8,5 @@ import com.zhouzhou.aries.entity.User;
  *
  */
 public interface UserService extends BaseService<User>{
-	void a();
+	
 }

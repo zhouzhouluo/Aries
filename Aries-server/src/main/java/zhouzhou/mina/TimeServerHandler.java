@@ -58,7 +58,7 @@ public class TimeServerHandler implements IoHandler {
     }  
   
     @Override  
-    public void sessionOpened(IoSession arg0) throws Exception {  
+    public void sessionOpened(final IoSession arg0) throws Exception {  
         // TODO Auto-generated method stub 
     	System.out.println("sessionOpened--------");
     	new Thread(new Runnable() {

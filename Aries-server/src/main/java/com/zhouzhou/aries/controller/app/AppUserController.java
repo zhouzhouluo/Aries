@@ -21,7 +21,7 @@ import com.zhouzhou.aries.service.UserService;
  * @author zhouzhou
  *
  */
-@RequestMapping("app/user")
+@RequestMapping("appuser")
 @Controller
 public class AppUserController {
 	

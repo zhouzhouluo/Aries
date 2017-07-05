@@ -23,9 +23,9 @@ import com.zhouzhou.aries.service.UserService;
  */
 @RequestMapping("app/user")
 @Controller
-public class UserController {
+public class AppUserController {
 	
-	private final static Log LOG = LogFactory.getLog(UserController.class);
+	private final static Log LOG = LogFactory.getLog(AppUserController.class);
 	
 	@Resource(name = "userService")  
 	private UserService userService;

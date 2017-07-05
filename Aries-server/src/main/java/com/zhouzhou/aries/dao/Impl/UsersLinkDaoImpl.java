@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import com.zhouzhou.aries.dao.UsersLinkDao;
 import com.zhouzhou.aries.entity.UsersLink;
 
-@Repository(value = "logDao")  
+@Repository(value = "UsersLinkDao")  
 public class UsersLinkDaoImpl extends BaseDaoImpl<UsersLink> implements UsersLinkDao{
 
 

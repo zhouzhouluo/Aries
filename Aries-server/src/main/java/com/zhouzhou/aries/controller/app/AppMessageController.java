@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RequestMapping("app/message")
 @Controller
-public class MessageController {
+public class AppMessageController {
 
 	@RequestMapping("/sendTextMessage")
 	@ResponseBody

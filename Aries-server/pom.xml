@@ -11,6 +11,7 @@
 	<url>http://maven.apache.org</url>
 
 	<build>
+		<finalName>aries</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>

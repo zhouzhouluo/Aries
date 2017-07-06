@@ -34,7 +34,7 @@ public class UserController {
 		LOG.debug("DDDDDDDDDDDDDDDDDDDD");
 //		userService.save(user);
 //		userService.a();
-		return null;
+		return "111111111111";
 	}
 	
 	@RequestMapping("/register")

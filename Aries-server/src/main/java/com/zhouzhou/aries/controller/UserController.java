@@ -27,11 +27,12 @@ public class UserController {
     private UserService userService;
 	
 	@RequestMapping("/save")
+	@ResponseBody
 	public String sayhello(User user){
 		user = new User();
 		user.setNickname("洲洲罗");
-		System.out.println("aaaaaaaaaaaaaaaa");
-		LOG.debug("DDDDDDDDDDDDDDDDDDDD");
+		System.out.println("bbbbbbbbbbbbbbbbbbb");
+		LOG.debug("ddddddddddddddddddddddddddddd");
 //		userService.save(user);
 //		userService.a();
 		return "111111111111";
